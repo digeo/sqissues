@@ -3,11 +3,16 @@
  */
 package sqissues;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * @author George Digkas <digasgeo@gmail.com>
  *
  */
 public class C4 {
+
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	private int foo;
 
@@ -24,7 +29,7 @@ public class C4 {
 	}
 
 	public void print() {
-		System.out.println("C4 [foo=" + foo + "]");
+		logger.info("C4 [foo={}]", foo);
 	}
 
 	@Override
