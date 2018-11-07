@@ -23,6 +23,10 @@ public class C4 {
 		this.foo = foo;
 	}
 
+	public void print() {
+		System.out.println("C4 [foo=" + foo + "]");
+	}
+
 	@Override
 	public String toString() {
 		return "C4 [foo=" + foo + "]";
