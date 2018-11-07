@@ -43,6 +43,7 @@ public class C1 {
 	}
 
 	public void print() {
+		// int p = p1 + p2;
 		System.out.println("C1 [p1=" + p1 + ", p2=" + p2 + "]");
 	}
 
