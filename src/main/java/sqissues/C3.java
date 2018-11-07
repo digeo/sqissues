@@ -31,7 +31,4 @@ public class C3 {
 		return "C3 [s1=" + s1 + "]";
 	}
 
-	public void print() {
-		System.out.println("C3 [s1=" + s1 + "]");
-	}
 }

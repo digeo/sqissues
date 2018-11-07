@@ -37,6 +37,10 @@ public class C1 {
 		this.p2 = p2;
 	}
 
+	public int getSum() {
+		return p1 + p2;
+	}
+
 	@Override
 	public String toString() {
 		return "C1 [p1=" + p1 + ", p2=" + p2 + "]";
